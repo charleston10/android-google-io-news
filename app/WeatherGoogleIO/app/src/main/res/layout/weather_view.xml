@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/weather_view_txt_day_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        tools:text="Sunday" />
+
+    <ImageView
+        android:id="@+id/weather_view_img_clime"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        tools:src="@drawable/weather_drizzle_day" />
+
+    <TextView
+        android:id="@+id/weather_view_txt_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        tools:text="20ºC" />
+</LinearLayout>
