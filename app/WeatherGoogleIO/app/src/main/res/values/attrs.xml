@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="WeatherView">
-        <attr name="day_week" format="string" />
-        <attr name="temperature" format="string" />
-        <attr name="clime" format="reference" />
+        <attr name="weather_day_week" format="integer" />
+        <attr name="weather_temperature" format="integer" />
+        <attr name="weather_clime" format="reference" />
     </declare-styleable>
 </resources>
